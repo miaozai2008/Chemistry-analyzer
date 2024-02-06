@@ -1,10 +1,10 @@
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
@@ -13,7 +13,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-.vs/
+**/.vs/
 
 # Qt
 object_script.*.Release
@@ -51,50 +51,6 @@ compile_commands.json
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# User-specific files (MonoDevelop/Xamarin Studio)
-*.userprefs
-
-# Mono auto generated files
-mono_crash.*
-
-# Visual Studio 2017 auto generated files
-Generated\ Files/
-
-# MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
-
-# NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
-
-# Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
-dlldata.c
-
-# Benchmark Results
-BenchmarkDotNet.Artifacts/
-
-# .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# StyleCop
-StyleCopReport.xml
-
 # Files built by Visual Studio
 *_i.c
 *_p.c
@@ -124,6 +80,22 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
 
 # Chutzpah Test files
 _Chutzpah*
