@@ -1,4 +1,4 @@
-解析化学反应方程式，研究性学习项目
+解析热化学方程式，研究性学习项目
 ----
 This project is created for my homework  
-It tries to analyze chemistry formula
+It tries to analyze thermochemical equation
